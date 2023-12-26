@@ -1,0 +1,5 @@
+Memorydagi qiymatni ozgartirish uchun threadlardann foydalanilganda kopincha xatolik yuz beradi
+Bu xatolik nima uchun thread bir vaqtni o'zida ozgaruvchini ham qiymatini oqib ham ozgartirib va osha ozgargan qiymatni
+memoryga yozisihi kere boladi. Aynan shu holatni misol uchun 2 ta threadlardan foydalanse 2 ta thread bir vaqtni ozida
+1 ta ozgaruvchini qiymatini bir xil qiymatni ob ketishi mumkin. Yani 1 - thread kelib ozgaruvchini qiymatini ozgartiradi va bir voxtni
+ozida 2 - thread keb ozgarmagan qiymatni ob ketishi mumkin. Buni oldini olish uchun " Synchronized " key wordi qollaniladi

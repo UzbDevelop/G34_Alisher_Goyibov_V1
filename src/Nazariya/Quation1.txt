@@ -1,0 +1,3 @@
+Threadlarda volotile kalit sozini qollash orqali har bir thread memoryga kop borib kelgani uchun ozini yoniga cashelab qoyishini oldini oladi.
+Bunday holatda thread memorydegi ozgargan qiymatni emas oziga cashe qilib qoygan qiymatni natija sifatida qaytaradi. Bu narsani oldini olish uchun ham feildlarga
+volotile key wordi yoziladi
